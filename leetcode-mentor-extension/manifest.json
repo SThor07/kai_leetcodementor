@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Kai (K) — LeetCode Mentor Nudges",
+  "version": "0.3.0",
+  "description": "Mentor nudges on LeetCode (no solutions).",
+  "permissions": [
+    "activeTab",
+    "notifications",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "http://localhost:3333/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+ "commands": {
+  "kai_snapshot": {
+    "suggested_key": { "default": "Ctrl+Shift+O", "mac": "Command+Shift+O" },
+    "description": "Snapshot editor code for Kai (clipboard)"
+  }
+}
+,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.com/problems/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
