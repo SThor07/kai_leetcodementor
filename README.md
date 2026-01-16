@@ -11,11 +11,12 @@ for responses. The goal is to keep you thinking, not to hand you the full answer
 - A snapshot hotkey (Cmd/Ctrl+Shift+O) that captures your code from clipboard.
 
 ## Screenshots
-Add images here before publishing:
+
 ```
-![Kai button](screenshots/kai-button.png)
-![Kai toast](screenshots/kai-toast.png)
-![Explain view](screenshots/kai-explain.png)
+<img width="585" height="715" alt="Screenshot 2026-01-16 at 1 57 31 PM" src="https://github.com/user-attachments/assets/4f749145-9cdc-4724-b2b1-26d519bb1d37" />
+
+<img width="585" height="715" alt="Screenshot 2026-01-16 at 1 59 16 PM" src="https://github.com/user-attachments/assets/eda4d613-6d01-457b-90a6-e316ca5a8000" />
+
 ```
 
 ## Repo layout
