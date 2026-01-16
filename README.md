@@ -11,13 +11,8 @@ for responses. The goal is to keep you thinking, not to hand you the full answer
 - A snapshot hotkey (Cmd/Ctrl+Shift+O) that captures your code from clipboard.
 
 ## Screenshots
-
-```
-![Kai UI](https://github.com/user-attachments/assets/4f749145-9cdc-4724-b2b1-26d519bb1d37)
-![Kai UI](https://github.com/user-attachments/assets/eda4d613-6d01-457b-90a6-e316ca5a8000)
-
-
-```
+![Kai UI](screenshots/kai-ui.png)
+![Explain view](screenshots/kai-explain.png)
 
 ## Repo layout
 - `leetcode-mentor-extension/` Chrome extension (Manifest V3)
